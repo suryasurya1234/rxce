@@ -94,7 +94,7 @@ def hero():
                     print(newperiod+1," : 💥🔴RED1🔴💥")
                 else:
                     print(newperiod+1," : 💥🟢GREEN1🟢💥")
-            else:
+                else:
                 if current in numbers:
                     print(newperiod+1," :  💥🔴RED2🔴💥")
                 else:
@@ -107,7 +107,7 @@ def hero():
                     print(newperiod+1,": 💥💥🟢GREEN2🟢💥💥")
                 else:
                     print(newperiod+1,": 💥💥🟢GREEN3🟢💥💥")
-            else:
+                else:
                 if current in numbers:
                     print(newperiod+1,": 💥💥🔴RED4🔴💥💥")
                 else:
