@@ -17,7 +17,7 @@ def hero():
 
     def chalo():
         done = False
-        #here is the animation
+        here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
@@ -30,13 +30,13 @@ def hero():
         t = threading.Thread(target=animate)
         t.start()
 
-        #long process here
+        long process here
         time.sleep(20)
         done = True
 
     def chalo1():
         done = False
-        #here is the animation
+        here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']):
                 if done:
@@ -49,15 +49,15 @@ def hero():
         t = threading.Thread(target=animate)
         t.start()
 
-        #long process here
+        long process here
         time.sleep(20)
         done = True
 
     def clear():
-        # for windows
+         for windows
         if name == 'nt':
             _ = system('cls')
-        # for mac and linux(here, os.name is 'posix')
+         for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
 
@@ -125,7 +125,7 @@ def hero():
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
             sys.exit(" \n \n \n Contact on Telegram @HACK_RXCE")
-            #print(numbers)
+            print(numbers)
         banner='figlet RXCE_HACKER'
 
 
