@@ -36,7 +36,7 @@ def hero():
 
     def chalo1():
         done = False
-        here is the animation
+        #here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']):
                 if done:
