@@ -17,7 +17,7 @@ def hero():
 
     def chalo():
         done = False
-        here is the animation
+        #here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
@@ -30,7 +30,7 @@ def hero():
         t = threading.Thread(target=animate)
         t.start()
 
-        long process here
+        #long process here
         time.sleep(20)
         done = True
 
@@ -49,15 +49,15 @@ def hero():
         t = threading.Thread(target=animate)
         t.start()
 
-        long process here
+        #long process here
         time.sleep(20)
         done = True
 
     def clear():
-         for windows
+        # for windows
         if name == 'nt':
             _ = system('cls')
-         for mac and linux(here, os.name is 'posix')
+        # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
 
@@ -90,7 +90,7 @@ def hero():
         if i in thisway:
             m=getSum(current)
             n=int(current)%10
-            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
+            if((m%1==0 and n%1==0) or (m%1==1 and n%1==1)):
                 if current in numbers:
                     print(newperiod+1," : GREEN")
                 else:
@@ -103,7 +103,7 @@ def hero():
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
-            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
+            if((m%1==0 and n%1==0) or (m%1==1 and n%1==1)):
                 if current in numbers:
                     print(newperiod+1,": GREEN")
                 else:
@@ -125,7 +125,7 @@ def hero():
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
             sys.exit(" \n \n \n Contact on Telegram @HACK_RXCE")
-            print(numbers)
+            #print(numbers)
         banner='figlet RXCE_HACKER'
 
 
@@ -139,7 +139,7 @@ if(expirydate>today):
     Third = now.replace(hour=18, minute=55, second=0, microsecond=0)
     Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
     Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
-    Finalend = now.replace(hour=8, minute=35, second=0, microsecond=0)
+    Finalend = now.replace(hour=17, minute=35, second=0, microsecond=0)
 
     if (False):
             period=220
@@ -151,7 +151,7 @@ if(expirydate>today):
             period=286
             hero()
     elif(True):
-            period=161
+            period=0
 
             hero()
     else:
